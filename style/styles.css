@@ -1,0 +1,45 @@
+
+@font-face {
+ font-family: 'KIND';
+ src:
+     url('../fonts/KINDERGARTEN.TTF') format('truetype');
+     font-weight: normal;
+     font-style: normal;
+}
+@font-face {
+ font-family: 'good';
+ src:
+     url('../fonts/GOOD\ MATCHA.OTF') format('opentype');
+     font-weight: normal;
+     font-style: normal;
+}
+.foe{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.kinderclass{
+    font-family: 'KIND';
+}
+.goode{
+    font-family: 'good';
+    color:peru;
+    padding: 1rem;
+}
+.Margin{
+    margin-top: 50px;
+    padding: 1rem;
+    
+}
+.center {
+display: flex;
+justify-content: center;
+}
+.alice{
+    background-color: aliceblue;
+}
+.selected{
+    background-color: rgb(249, 244, 198);
+    
+}
+.for{
+    opacity: 75%;
+}

@@ -1,9 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Portfolio</title>
-  </head>
-  <body></body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style/styles.css" />
+  <title>My Portfolio</title>
+</head>
+
+<body background="img/bg.jpeg" class="img-fluid" style="width: 100rem">
+  <!-- Navigation Bar below this line -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid" style="background-image: url(img/bgimg.jpeg)">
+      <a class="navbar-brand kinderclass rounded-3 px-2 fs-4 " style="font-style: italic; background-color: silver;" href="#">Menu</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active kinderclass selected rounded-3" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active kinderclass" href="Exp.html">Experience</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active kinderclass" href="Galler.html">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active kinderclass" href="Contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Navigation Bar ends here -->
+  <div class="text-center">
+    <header class="goode d-inline-block px-4 m-3 fs-1 shadow-lg rounded-pill">
+      My Portfolio
+    </header>
+  </div>
+  <div class="d-flex align-items-center center">
+    <div class="border border-secondary-subtle py-2 m-3 rounded-5 alice">
+      <div class="d-flex align-items-center center">
+        <img src="img/Pe.jfif" alt="Me" width="175" class="img-thumbnail img-fluid mx-1 rounded-5" />
+      </div>
+      <div class="kinderclass m-3 fs-3 text-center">Krittin Sangin</div>
+      <div class="d-none d-lg-block kinderclass m-2 fs-7 text-center">
+        Hi, my name is Perm <br />
+        I am studying in CMU,<br />
+        Computer Engineering.
+      </div>
+    </div>
+    <span>
+      <h5 class="d-inline-block p-3 goode rounded-3 alice">Skills:</h5>
+      <div class="card mb-3 alice rounded-3">
+        <img src="img/what-is-coding.jpg" style="height: 10px;" class="card-img-top" alt="bg" />
+        <div class="card-body">
+          <p class="fs-5 kinderclass">Programming:</p>
+          <p class="card-text">
+            Intermediate in C++, Started learning Java, Used Python before.
+          </p>
+        </div>
+        <img src="img/what-is-coding.jpg" style="height: 10px;" class="card-img-bottom" alt="bg" />
+      </div>
+      <div class="card mb-3 alice rounded-3">
+        <img src="img/what-is-coding.jpg" style="height: 10px;" class="card-img-top" alt="bg" />
+        <div class="card-body">
+          <p class="fs-5 kinderclass">Cybersecurity:</p>
+          <p class="card-text">
+            Intermediate level in Kali Linux; eager to learn more.
+          </p>
+        </div>
+        <img src="img/what-is-coding.jpg" style="height: 10px;" class="card-img-bottom" alt="bg" />
+      </div>
+      <div class="card mb-3 alice rounded-3">
+        <img src="img/what-is-coding.jpg" style="height: 10px;" class="card-img-top" alt="bg" />
+        <div class="card-body">
+          <p class="fs-5 kinderclass">Grinding:</p>
+          <p class="card-text">
+            LeetCode solving,
+            codewars grinder (423 honor, don't have that much time)
+          </p>
+        </div>
+        <img src="img/what-is-coding.jpg" style="height: 10px;" class="card-img-bottom" alt="bg" />
+      </div>
+    </span>
+  </div>
+</body>
+
 </html>
